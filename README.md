@@ -17,7 +17,7 @@ https://www.kaggle.com/api/v1/datasets/download/saurabhbadole/bank-customer-chur
 #### Methodology
 The present EDA will be use to generate Logistic regression, SVM and Random Forest models.
 
-#### EDA Insights
+#### EDA Insights (Results)
 
 <img width="1729" alt="Screenshot 2025-05-18 at 3 10 19 pm" src="https://github.com/user-attachments/assets/d8927392-15e9-4787-9b44-2f8ea4869cd5" />
 
@@ -50,18 +50,18 @@ The present EDA will be use to generate Logistic regression, SVM and Random Fore
 
 - Numeric variables behave similarly among geographies. Only Germany reports a higher Balance distribution than the other countries.
 -----
-![pairplot](https://github.com/user-attachments/assets/84914a21-f9cc-4682-be0d-38db0f3d399e)
-
-- Seems to be low correlations accross variables.
-- Number of products could be an important variable to classify churned customers.
-- customers who churned tend to be older than the others that stayed.
-- Customers whi churned have an important concentration in 1 products. If customers have 2 products or more they are less likely to churn.
------
 ![corr_matriz](https://github.com/user-attachments/assets/ef325859-3cbf-4c69-a41e-25953ac260f1)
 
 - Low correlations were identified between numeric variables.
 - The highest correlation found is Number of products vs Balance (-0.38), followed by Number of products vs Credit Score (-0.11)
 
+-----
+![pairplot](https://github.com/user-attachments/assets/84914a21-f9cc-4682-be0d-38db0f3d399e)
+
+- Seems to be low correlations accross variables.
+- Number of products could be an important variable to classify churned customers.
+- Customers who churned tend to be older than the others that stayed.
+- Customers who churned have an important concentration in 1 products. If customers have 2 products or more they are less likely to churn.
 -----
 
 #### Next steps
